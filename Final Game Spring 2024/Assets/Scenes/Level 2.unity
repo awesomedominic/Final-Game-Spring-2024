@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -259,6 +263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.9999993
@@ -360,6 +368,10 @@ PrefabInstance:
     - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
       propertyPath: m_Name
       value: park_road_straight (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -543,6 +555,11 @@ Transform:
   - {fileID: 828725281}
   - {fileID: 818820974}
   - {fileID: 221698308}
+  - {fileID: 1952836612}
+  - {fileID: 1621143093}
+  - {fileID: 262163434}
+  - {fileID: 547449862}
+  - {fileID: 1006519256}
   m_Father: {fileID: 2132417575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &78621928
@@ -596,6 +613,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -758,6 +779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_entry (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 733423005464536140, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -819,6 +844,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -922,6 +951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -943,6 +976,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1005,6 +1042,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1160,6 +1201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1221,6 +1266,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1284,6 +1333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1346,6 +1399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -1402,11 +1459,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 66212998}
     m_Modifications:
     - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_Name
       value: road_straight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1426,7 +1487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1434,7 +1495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1453,6 +1514,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+--- !u!4 &262163434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+  m_PrefabInstance: {fileID: 262163433}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &269799913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1464,6 +1530,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1527,6 +1597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14
@@ -1588,6 +1662,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1691,6 +1769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1774,6 +1856,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1939,6 +2025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2030,6 +2120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2051,6 +2145,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2216,6 +2314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2237,6 +2339,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2339,6 +2445,10 @@ PrefabInstance:
     - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
       propertyPath: m_Name
       value: park_road_straight (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2464,6 +2574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2485,6 +2599,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2587,6 +2705,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2727,6 +2849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2788,6 +2914,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2928,6 +3058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2978,6 +3112,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3041,6 +3179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -3102,6 +3244,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3227,6 +3373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -3289,6 +3439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -3345,11 +3499,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 66212998}
     m_Modifications:
     - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_Name
       value: road_straight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3369,7 +3527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3377,7 +3535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3396,6 +3554,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+--- !u!4 &547449862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+  m_PrefabInstance: {fileID: 547449861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &556085219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3448,6 +3611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3469,6 +3636,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3594,6 +3765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.00000071525574
@@ -3656,6 +3831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -3717,6 +3896,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3820,6 +4003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3870,6 +4057,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3933,6 +4124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -3994,6 +4189,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4097,6 +4296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_outerCorner (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4196,6 +4399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.0000007
@@ -4257,6 +4464,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4320,6 +4531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -4381,6 +4596,10 @@ PrefabInstance:
     - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_Name
       value: park_wall_entry (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 733423005464536140, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4444,6 +4663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -4505,6 +4728,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4568,6 +4795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -4630,6 +4861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -4691,6 +4926,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4804,6 +5043,97 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4157154785388687743, guid: c7fb1395a0a9f4176999ec56d4675e87, type: 3}
   m_PrefabInstance: {fileID: 838245960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &843394013
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 895634021}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09499997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_Name
+      value: bench (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 843394016}
+  m_SourcePrefab: {fileID: 100100000, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+--- !u!4 &843394014 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 843394013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &843394015 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 843394013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &843394016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843394015}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40000004, y: 0.100000024, z: 0.15000007}
+  m_Center: {x: 0, y: 0.050000012, z: -0.0000000037252903}
 --- !u!1001 &848938461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4918,6 +5248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4979,6 +5313,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5079,6 +5417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5129,6 +5471,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
   m_PrefabInstance: {fileID: 890319311}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &895634020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895634021}
+  m_Layer: 0
+  m_Name: Decorations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895634021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895634020}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1547404075}
+  - {fileID: 1478993059}
+  - {fileID: 843394014}
+  - {fileID: 1616980540}
+  - {fileID: 1270473769}
+  m_Father: {fileID: 2132417575}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &909315738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5140,6 +5518,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5243,6 +5625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5305,6 +5691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5326,6 +5716,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5429,6 +5823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5445,7 +5843,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 66212998}
     m_Modifications:
     - target: {fileID: 3475212766177104841, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5465,7 +5863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3475212766177104841, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3475212766177104841, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
       propertyPath: m_LocalRotation.y
@@ -5473,7 +5871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3475212766177104841, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3475212766177104841, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5491,11 +5889,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: road_straight_crossing
       objectReference: {fileID: 0}
+    - target: {fileID: 4283414957985614195, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
+--- !u!4 &1006519256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3475212766177104841, guid: 747b9e438183046cca252647cab4b0c0, type: 3}
+  m_PrefabInstance: {fileID: 1006519255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1018766276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5507,6 +5914,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5672,6 +6083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5734,6 +6149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5784,6 +6203,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5909,6 +6332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -5970,6 +6397,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6033,6 +6464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -6094,6 +6529,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6157,6 +6596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -6219,6 +6662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -6269,6 +6716,97 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
   m_PrefabInstance: {fileID: 1237560546}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1270473768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 895634021}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000011324883
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09499997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_Name
+      value: bench (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1270473771}
+  m_SourcePrefab: {fileID: 100100000, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+--- !u!4 &1270473769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1270473768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1270473770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1270473768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1270473771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270473770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40000004, y: 0.100000024, z: 0.15000007}
+  m_Center: {x: 0, y: 0.050000012, z: -0.0000000037252903}
 --- !u!1001 &1324786043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6320,6 +6858,10 @@ PrefabInstance:
     - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
       propertyPath: m_Name
       value: park_road_straight (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6405,6 +6947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -6467,6 +7013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -6528,6 +7078,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6630,6 +7184,10 @@ PrefabInstance:
     - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
       propertyPath: m_Name
       value: park_road_straight (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6735,6 +7293,97 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1478993058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 895634021}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09499997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_Name
+      value: bench (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1478993061}
+  m_SourcePrefab: {fileID: 100100000, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+--- !u!4 &1478993059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1478993058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1478993060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1478993058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1478993061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478993060}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40000004, y: 0.100000024, z: 0.15000007}
+  m_Center: {x: 0, y: 0.050000012, z: -0.0000000037252903}
 --- !u!1001 &1487324433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6746,6 +7395,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6808,6 +7461,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6911,6 +7568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6932,6 +7593,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6995,6 +7660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -7045,6 +7714,97 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
   m_PrefabInstance: {fileID: 1519950393}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1547404074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 895634021}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09499997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_Name
+      value: bench
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1547404077}
+  m_SourcePrefab: {fileID: 100100000, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+--- !u!4 &1547404075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1547404074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1547404076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1547404074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1547404077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547404076}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40000004, y: 0.100000024, z: 0.15000007}
+  m_Center: {x: 0, y: 0.050000012, z: -0.0000000037252903}
 --- !u!1001 &1591871011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7056,6 +7816,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7125,7 +7889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3728669020091436980, guid: 2d047b85579394d27ba240efa34a52a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 49.75
+      value: 49.750004
       objectReference: {fileID: 0}
     - target: {fileID: 3728669020091436980, guid: 2d047b85579394d27ba240efa34a52a2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7133,7 +7897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3728669020091436980, guid: 2d047b85579394d27ba240efa34a52a2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3728669020091436980, guid: 2d047b85579394d27ba240efa34a52a2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -7141,7 +7905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3728669020091436980, guid: 2d047b85579394d27ba240efa34a52a2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3728669020091436980, guid: 2d047b85579394d27ba240efa34a52a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7226,17 +7990,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4157154785388687743, guid: c7fb1395a0a9f4176999ec56d4675e87, type: 3}
   m_PrefabInstance: {fileID: 1607785272}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1616980539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 895634021}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.49999928
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09499997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      propertyPath: m_Name
+      value: bench (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1616980542}
+  m_SourcePrefab: {fileID: 100100000, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+--- !u!4 &1616980540 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1616980539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1616980541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4436054140987434ba23a20a02b642b1, type: 3}
+  m_PrefabInstance: {fileID: 1616980539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1616980542
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616980541}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40000004, y: 0.100000024, z: 0.15000007}
+  m_Center: {x: 0, y: 0.050000012, z: -0.0000000037252903}
 --- !u!1001 &1621143092
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 66212998}
     m_Modifications:
     - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_Name
       value: road_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7256,7 +8115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -7264,7 +8123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7283,6 +8142,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+--- !u!4 &1621143093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+  m_PrefabInstance: {fileID: 1621143092}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1630551998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7396,6 +8260,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
       propertyPath: m_Name
       value: park_base (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7550,6 +8418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_outerCorner (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7689,6 +8561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_tsplit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1856751043092601466, guid: e256801310de24e019224586b4f45686, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7773,6 +8649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -7834,6 +8714,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7937,6 +8821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8028,6 +8916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8049,6 +8941,10 @@ PrefabInstance:
     - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_Name
       value: park_wall_entry (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 733423005464536140, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8173,6 +9069,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8360,6 +9260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_wall_straight (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -8462,6 +9366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8523,6 +9431,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8622,6 +9534,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8725,6 +9641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8786,6 +9706,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cb8a202fee844149ad45b6ffc1e3dd2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8885,6 +9809,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8988,6 +9916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9009,6 +9941,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9112,6 +10048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9173,6 +10113,10 @@ PrefabInstance:
     - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
       propertyPath: m_Name
       value: park_road_straight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9236,6 +10180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9252,11 +10200,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 66212998}
     m_Modifications:
     - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_Name
       value: road_straight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822234078552734653, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9276,7 +10228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -9284,7 +10236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9303,6 +10255,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+--- !u!4 &1952836612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3197914578198683911, guid: 49134ecf2997e42309f1ef353b94900a, type: 3}
+  m_PrefabInstance: {fileID: 1952836611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1989754842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9314,6 +10271,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9377,6 +10338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -9439,6 +10404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base_decorated_trees (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -9500,6 +10469,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9603,6 +10576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9624,6 +10601,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9727,6 +10708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9818,6 +10803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_base (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ad25bc4d03a549ed93886797600612a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9868,6 +10857,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10033,6 +11026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10054,6 +11051,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10135,6 +11136,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 66212998}
+  - {fileID: 895634021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2140838979
@@ -10205,6 +11207,10 @@ PrefabInstance:
     - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_Name
       value: park_wall_entry
+      objectReference: {fileID: 0}
+    - target: {fileID: 100896662853025526, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 733423005464536140, guid: fcab48c38803d4334a77e331ecfb7df6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10308,6 +11314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_tsplit
       objectReference: {fileID: 0}
+    - target: {fileID: 1856751043092601466, guid: e256801310de24e019224586b4f45686, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10329,6 +11339,10 @@ PrefabInstance:
     - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_Name
       value: park_wall_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072724557085535161, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5561418560985346307, guid: ef7bf748819524c8b87e36dc3c18dfa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10432,6 +11446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_corner
       objectReference: {fileID: 0}
+    - target: {fileID: 4571894833177733569, guid: 368b6e625c098474e9e1b35a719c9c36, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10453,6 +11471,10 @@ PrefabInstance:
     - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_Name
       value: park_base_decorated_trees
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680529908134750745, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2024827218906771619, guid: 4f6ffdf4a4097410fa2b4965b5bf1474, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10556,6 +11578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: park_road_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 984544610060719493, guid: 6395d99581e1642f9a693499f67097bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10577,6 +11603,10 @@ PrefabInstance:
     - target: {fileID: 7308994699049264438, guid: 4623574b9bb204a5f9e63c208b211008, type: 3}
       propertyPath: m_Name
       value: park_wall_outerCorner
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308994699049264438, guid: 4623574b9bb204a5f9e63c208b211008, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7936771189752151948, guid: 4623574b9bb204a5f9e63c208b211008, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10635,10 +11665,5 @@ SceneRoots:
   - {fileID: 174755299}
   - {fileID: 1452579668}
   - {fileID: 2132417575}
-  - {fileID: 1006519255}
-  - {fileID: 1621143092}
-  - {fileID: 262163433}
-  - {fileID: 547449861}
-  - {fileID: 1952836611}
-  - {fileID: 1597381410}
   - {fileID: 2140838979}
+  - {fileID: 1597381410}

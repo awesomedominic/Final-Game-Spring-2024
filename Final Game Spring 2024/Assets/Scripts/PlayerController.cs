@@ -4,114 +4,83 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int score = 0;
-    public float JumpForce = 10f;
-    public float GravityModifier = 1f;
-    public float turnSpeed = 20f;
-    public float moveSpeed = 1f;
-    public float OutOfBounds = -10f;
-    public bool isOnGround = true;
-    Vector3 m_Movement;
-    Rigidbody m_Rigidbody;
-    Quaternion m_Rotation = Quaternion.identity;
-    private Vector3 _startingPosition;
-    private Vector3 _checkpointPosition;
-    private Rigidbody _playerRb;
-    private bool _isAtCheckpoint = false;
+   [Header("Assigned Components")]
+    [SerializeField] private Animator _animator;
+    [SerializeField] private CharacterController _characterController;
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-
-        m_Movement.Set(horizontal, 0f, vertical);
-        m_Movement.Normalize();
-
-        bool hasHorizontalInput = !Mathf.Approximately (horizontal, 0f);
-        bool hasVerticalInput = !Mathf.Approximately (vertical, 0f);
-        bool isWalking = hasHorizontalInput || hasVerticalInput;
-
-        Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
-        m_Rotation = Quaternion.LookRotation (desiredForward);
-
-        m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * moveSpeed * Time.deltaTime);
-        m_Rigidbody.MoveRotation (m_Rotation);
-    }
+    [Header("Player Movement Values")]
+    public float maximumSpeed;
+    public float rotationSpeed;
+    public float jumpForce;
+    public float jumpButtonGracePeriod;
+    private float _yForce;
+    private float originalStepOffset;
+    private float? _lastGroundedTime;
+    private float? _jumpButtonPressedTime;
 
     // Start is called before the first frame update
     void Start()
     {
-        _playerRb = GetComponent<Rigidbody>();
-        Physics.gravity *= GravityModifier;
-        m_Rigidbody = GetComponent<Rigidbody>();
-        _startingPosition = transform.position; 
+        originalStepOffset = _characterController.stepOffset;    
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        float inputMagnitude = Mathf.Clamp01(movementDirection.magnitude);
+
+        if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            _playerRb.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
-            isOnGround = false;
+            inputMagnitude /= 2;
+        }
+        _animator.SetFloat("InputMagnitude", inputMagnitude, 0.05f, Time.deltaTime);
+
+        float speed = inputMagnitude * maximumSpeed;
+        movementDirection.Normalize();
+
+        _yForce += Physics.gravity.y * Time.deltaTime;
+
+        if(_characterController.isGrounded)
+        {
+            _lastGroundedTime = Time.time;
         }
 
-        if(transform.position.y < OutOfBounds)
+        if(Input.GetButtonDown("Jump"))
         {
-            if(_isAtCheckpoint)
+            _jumpButtonPressedTime = Time.time;
+        }
+
+        if (Time.time - _lastGroundedTime <= jumpButtonGracePeriod)
+        {
+            _characterController.stepOffset = originalStepOffset;
+            _yForce = -0.5f;
+
+            if (Time.time - _jumpButtonPressedTime <= jumpButtonGracePeriod)
             {
-                transform.position = _checkpointPosition;
-            }
-            else
-            {
-                transform.position = _startingPosition;
+                _yForce = jumpForce;
+                _jumpButtonPressedTime = null;
+                _lastGroundedTime = null;
             }
         }
-            
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
+        else
         {
-            isOnGround = true;
+            _characterController.stepOffset = 0;
         }
 
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            transform.position = _startingPosition;
+        Vector3 velocity = movementDirection * speed;
+        velocity.y = _yForce;
 
-             if(_isAtCheckpoint)
-            {
-                transform.position = _checkpointPosition;
-            }
-            else
-            {
-                transform.position = _startingPosition;
-            }
-        }
-    }
+        _characterController.Move(velocity * Time.deltaTime);
 
-    void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.CompareTag("Checkpoint"))
+        if (movementDirection != Vector3.zero)
         {
-            _isAtCheckpoint = true;
-            _checkpointPosition = other.gameObject.transform.position;
-        }
+            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
 
-        if(other.gameObject.CompareTag("Endpoint"))
-        {
-            transform.position = _startingPosition;
-            _isAtCheckpoint = false;
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
-
-        if(other.gameObject.CompareTag("Collectable"))
-        {
-            score++;
-            //scoreText.text = "Score: " + score.ToString();
-            Destroy(other.gameObject);
-        }
-    }
+    } //end Update
 }

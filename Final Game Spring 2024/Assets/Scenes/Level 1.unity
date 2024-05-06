@@ -20021,6 +20021,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4568805769949269507, guid: dc04c8839312b48ecafd2fc30eea02b5, type: 3}
   m_PrefabInstance: {fileID: 1830349045}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1833348885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3804673996874062341, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+  m_PrefabInstance: {fileID: 3725928455412973694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1833348891
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833348885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd3e81d0f34264ef7a90a1a36c6e4b43, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!143 &1833348897
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833348885}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1834055849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24185,10 +24237,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8401886424074669761, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1833348891}
+    - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: maximumSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: rotationSpeed
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: _characterController
+      value: 
+      objectReference: {fileID: 1833348897}
+    - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      propertyPath: jumpButtonGracePeriod
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3804673996874062341, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1833348891}
+    - targetCorrespondingSourceObject: {fileID: 3804673996874062341, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1833348897}
   m_SourcePrefab: {fileID: 100100000, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
 --- !u!1001 &4908898907522145937
 PrefabInstance:
