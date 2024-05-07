@@ -2502,7 +2502,6 @@ Transform:
   m_Children:
   - {fileID: 1312798728}
   - {fileID: 721268758}
-  - {fileID: 5993299733015403253}
   - {fileID: 1796295921}
   - {fileID: 1182780005}
   m_Father: {fileID: 0}
@@ -7392,6 +7391,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 0.100000076, z: 2}
   m_Center: {x: 0, y: 0.049999993, z: 0}
+--- !u!1 &720335982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5249392279568181655, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+  m_PrefabInstance: {fileID: 3725928455412973694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &720335984
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720335982}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd3e81d0f34264ef7a90a1a36c6e4b43, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &721268757
 GameObject:
   m_ObjectHideFlags: 0
@@ -7478,6 +7503,7 @@ Transform:
   - {fileID: 1720520623}
   - {fileID: 112889825}
   - {fileID: 1949019954}
+  - {fileID: 5993299733015403253}
   m_Father: {fileID: 263162126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &721381059
@@ -20026,27 +20052,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3804673996874062341, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
   m_PrefabInstance: {fileID: 3725928455412973694}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1833348891
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833348885}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bd3e81d0f34264ef7a90a1a36c6e4b43, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!143 &1833348897
 CharacterController:
   m_ObjectHideFlags: 0
@@ -24244,14 +24249,14 @@ PrefabInstance:
     - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
       propertyPath: _animator
       value: 
-      objectReference: {fileID: 1833348891}
+      objectReference: {fileID: 720335984}
     - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
       propertyPath: jumpForce
-      value: 5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
       propertyPath: maximumSpeed
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8576894441054980419, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
       propertyPath: rotationSpeed
@@ -24271,10 +24276,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3804673996874062341, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1833348891}
-    - targetCorrespondingSourceObject: {fileID: 3804673996874062341, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1833348897}
+    - targetCorrespondingSourceObject: {fileID: 5249392279568181655, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 720335984}
   m_SourcePrefab: {fileID: 100100000, guid: d9f3ff0a85fac4097843fb0f1d3b85f5, type: 3}
 --- !u!1001 &4908898907522145937
 PrefabInstance:
@@ -24541,7 +24546,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 263162126}
+    m_TransformParent: {fileID: 721268758}
     m_Modifications:
     - target: {fileID: 7001475438059596421, guid: fba09be91a87d47e5891ce279f5243a7, type: 3}
       propertyPath: m_LocalPosition.x
