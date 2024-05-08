@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
     [Header("Jumping Values")]
     public float jumpForce;
     public float jumpButtonGracePeriod;
+    public float OutOfBounds = -10f;
+    private Vector3 _startingPosition;
+    private Vector3 _checkpointPosition;
     private float _yForce;
     private float originalStepOffset;
     private float? _lastGroundedTime;
@@ -24,7 +27,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        originalStepOffset = _characterController.stepOffset;    
+        originalStepOffset = _characterController.stepOffset;
+        _startingPosition = transform.position; 
     }
 
     // Update is called once per frame
@@ -99,6 +103,11 @@ public class PlayerController : MonoBehaviour
         else
         {
             _animator.SetBool("IsMoving", false);
+        }
+
+        if(transform.position.y < OutOfBounds)
+        {
+            transform.position = _startingPosition;
         }
     } //end Update
 }
