@@ -7,17 +7,19 @@ public class LevelLoader : MonoBehaviour
 {
     [SerializeField] private CrossFade _crossFade;
     [SerializeField] private Endpoint _endpoint;
+    [SerializeField] private Timer _timer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _crossFade.FadeOut();
+        _timer.StartGameTimer();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(_endpoint.HasReached())
+        if(_endpoint.HasReached() || !_timer.GetGameTimer())
         {
             StartCoroutine("EndLevel");
         }

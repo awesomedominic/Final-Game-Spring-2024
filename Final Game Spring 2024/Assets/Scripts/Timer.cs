@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     public float timeRemaining = 60f;
     public bool timerIsRunning = false;
     public TextMeshProUGUI timerText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +30,7 @@ public class Timer : MonoBehaviour
             {
                 timeRemaining = 0;
                 timerIsRunning = false;
-                GameObject.Find("SessionManager").GetComponent<CrossFade>().FadeIn();
+                //GameObject.Find("SessionManager").GetComponent<CrossFade>().FadeIn();
             }
         }
     }
@@ -46,12 +47,17 @@ public class Timer : MonoBehaviour
     public void StartGameTimer()
     {
         timerIsRunning = true;
-        timeRemaining = 180;
+        //timeRemaining = 180;
     }
 
     public void EndGameTimer()
     {
         timerIsRunning = false;
+    }
+
+    public bool GetGameTimer()
+    {
+        return timerIsRunning;
     }
 
     public float GetTimeRemaining()

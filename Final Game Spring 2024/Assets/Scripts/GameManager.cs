@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set;}
-    public int levelSelect;
-    private Timer _timer;
-
     [SerializeField] private int currentLevelNumber = 1;
 
     void Awake()
@@ -32,9 +29,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if(_timer.GetTimeRemaining() <= 0)
-        {
-            SceneManager.LoadScene(levelSelect);
-        }
+        
     }
 }
