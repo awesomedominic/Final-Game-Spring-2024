@@ -25708,6 +25708,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5249247917124550994, guid: 4d3c3e220d84c40ba84730bdcadd9908, type: 3}
+      propertyPath: jumpButtonGracePeriod
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 8107365185000873920, guid: 4d3c3e220d84c40ba84730bdcadd9908, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
